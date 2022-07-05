@@ -5,13 +5,16 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
 .my-img{
     height: 500px;
 }
-section{
+.dis-flex{
     display: flex;
     padding-bottom: 150px;
 }
@@ -51,4 +54,30 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+#experiece{
+    display: flex;
+    padding-bottom: 150px;
+    /* width: 80%; */
+    margin: 0 0px;
+    box-shadow: 10px rgb(214, 101, 8);
+}
+#full-stack{
+    border-left: 7px solid tomato;
+    padding-left: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#baby-web{
+    border-left: 7px solid blue;
+    padding-left: 20px;
+    /* margin-left: 50px; */
+    margin-right: 50px;
+}
+#foot{
+    text-align: center;
+    color: darkgray;
+}
+section{
+    height: 500px;
 }
