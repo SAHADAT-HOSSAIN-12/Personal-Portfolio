@@ -20,11 +20,11 @@ h2{
 }
 .half-width{
     width: 50%;
-    padding: 0 2%;
+    padding: 0 7%;
 }
 .button-click{
     text-decoration: none;
-    background-image: linear-gradient(orange tomato); /*It is not working */
+    background-image: linear-gradient(rgb(184, 144, 72) tomato); /*It is not working */
     background-color: orange;
     padding: 10px 40px;
     border-radius: 5px;
@@ -33,8 +33,9 @@ h2{
     
 }
 .top-banner{
-    background-image: url(/images/top-banner.png);
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin: 0;
 }
 .sec-2{
     padding-left: 100px;
@@ -50,14 +51,14 @@ h2{
         font: 400;
 }
 .dream-big{
-    background-image: url(/images/dream-bg.png);
+    background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     
 }
 #experiece{
     display: flex;
-    background-image: url(/images/exp-bg.png);
+    background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
    
 }
